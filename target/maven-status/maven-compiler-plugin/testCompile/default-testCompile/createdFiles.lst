@@ -1,0 +1,6 @@
+com/android/test/e2e/BaseTest.class
+com/android/test/e2e/TestngTest.class
+com/android/test/e2e/IosAlertTest.class
+com/android/test/e2e/AndroidADBTest.class
+com/android/test/e2e/AndroidBrowserTest.class
+com/android/test/e2e/IosSwitchAppsTest.class

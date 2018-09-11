@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1" verbose="1" >
+    <parameter name="username" value="anand"/>
+    <test name="Regression1"  preserve-order="true" >
+        <!--<packages>-->
+            <!--<package name="com.android.test.e2e" />-->
+        <!--</packages>-->
+        <!--<groups>-->
+            <!--<run>-->
+                <!--<include name="regression"/>-->
+                <!--<include name="smoke"/>-->
+            <!--</run>-->
+        <!--</groups>-->
+        <classes>
+            <class name="com.android.test.e2e.TestngTest">
+                <methods>
+                    <include name="testngTest1"/>
+                    <include name="testngTest2"/>
+                </methods>
+            </class>
+
+
+            <!--<class name="com.android.test.e2e.BaseTest"/>-->
+            <!--<class name="com.android.test.e2e.AndroidBrowserTest"/>-->
+        </classes>
+
+
+    </test>
+</suite>
